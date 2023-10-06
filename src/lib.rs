@@ -1,3 +1,8 @@
-pub fn add(a: i32, b: i32) -> i32 {
-    a + b
-}
+#![allow(incomplete_features)]
+#![allow(unused_imports)]
+#![allow(dead_code)]
+#![feature(generic_const_exprs)]
+
+mod layer;
+
+use layer::*;
